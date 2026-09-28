@@ -2,6 +2,11 @@
   "permissions": {
     "allow": [
       "mcp__Microsoft_365__outlook_send_mail"
+    ],
+    "deny": [
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__reply",
+      "mcp__Gmail__forward"
     ]
   }
 }
