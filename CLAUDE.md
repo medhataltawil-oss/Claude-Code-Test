@@ -9,5 +9,5 @@
 - Every reminder or calendar event must be added to **both** calendars:
   1. Outlook calendar (Microsoft 365, `md@img-bcme.com`)
   2. Google Calendar (`zealous2017@gmail.com`, primary calendar)
-- Use Dubai time (`Asia/Dubai`) unless the user says otherwise.
+- Use Toronto time (`America/Toronto`) unless the user says otherwise.
 - Don't add attendees unless asked (adding attendees sends invitations).
