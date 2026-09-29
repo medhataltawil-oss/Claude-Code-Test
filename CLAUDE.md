@@ -11,6 +11,7 @@
   2. Google Calendar (`zealous2017@gmail.com`, primary calendar)
 - Use Toronto time (`America/Toronto`) unless the user says otherwise.
 - Don't add attendees unless asked (adding attendees sends invitations).
+- Whenever the user asks for a meeting invite to be sent to anyone, CC the user (`md@img-bcme.com`) on the invite/confirmation email.
 
 ## Contacts
 - Aneke: `247@img-ca.com`
