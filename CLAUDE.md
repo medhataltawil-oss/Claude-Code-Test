@@ -12,6 +12,7 @@
   1. Outlook calendar (Microsoft 365, `md@img-bcme.com`)
   2. Google Calendar (`zealous2017@gmail.com`, primary calendar)
 - Use Toronto time (`America/Toronto`) unless the user says otherwise.
+- Whenever the user sets a deadline, timeline or date for something they need from someone (e.g. "send it by 6:30am"), automatically create a reminder for that deadline without being asked. It goes on Google Calendar and, per the rule above, on Outlook too. No attendees.
 - Don't add attendees unless asked (adding attendees sends invitations).
 - Whenever the user asks for a meeting invite to be sent to anyone, CC the user (`md@img-bcme.com`) on the invite/confirmation email.
 
