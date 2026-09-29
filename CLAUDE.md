@@ -5,6 +5,9 @@
 - Never send, reply to, or forward email from Gmail (`zealous2017@gmail.com`). Gmail may be used for reading/searching only.
 - If Microsoft 365 is unavailable, stop and tell the user — do not fall back to Gmail.
 - Always CC the user (`md@img-bcme.com`) on every email sent on their behalf, not just meeting invites.
+- Never open an email with "Hi" or "Dear". Start directly with the recipient's name (e.g. "Jordan and Lea,").
+- Sign every email as "Med".
+- Desired sender display name is "IMG-MD". The Outlook connector cannot set it (it comes from the mailbox profile, currently "Med. ALTAWIL"), so it must be changed in the Microsoft 365 account settings.
 - Always CC Marie Lopez (`am@img-bcme.com`) on any email sent to Jordan.
 - "My time" / any time the user gives without a zone means Toronto time (`America/Toronto`), always.
 
