@@ -16,3 +16,9 @@
 ## Contacts
 - Aneke: `247@img-ca.com`
 - Marie Lopez: `am@img-bcme.com`
+
+## Jev (sorting & deciding model)
+- Jev decides, Claude writes. Use the `jev` skill (`.claude/skills/jev/`) for sorting, scoring, and yes/no decisions about text; write all prose yourself.
+- When Jev is unsure (low confidence, or a yes/no near 0.5), make the call yourself and say so.
+- Anything sent to Jev leaves the machine: ask the user before sending anything private.
+- The OpenRouter key lives only in the `OPENROUTER_API_KEY` environment secret. Never write it to a file, never echo it.

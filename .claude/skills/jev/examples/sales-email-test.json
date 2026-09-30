@@ -1,0 +1,38 @@
+{
+  "state": {
+    "from": "Dana Whitfield, Procurement Manager, Northgate Logistics",
+    "subject": "Quote request: 40 rugged tablets for our fleet, need by Oct 31",
+    "body": "Hi, we're replacing our driver tablets across three depots and need 40 rugged 10-inch units with mounting kits. Budget is approved at about $60k. We'd like a quote and a call this week; our current vendor contract ends Oct 31 so timing is tight. Can you also confirm whether you support fleet management software integration? Thanks, Dana"
+  },
+  "questions": {
+    "lead_strength": {
+      "type": "score",
+      "instructions": "How strong a sales lead is the email in `body`, judging by budget, timeline, and explicit buying intent?",
+      "criteria": [
+        "Not a real lead: spam, vague, or no buying intent",
+        "Weak lead: curious or exploratory, no budget or timeline",
+        "Warm lead: real interest, but budget or timeline unclear",
+        "Hot lead: clear need, stated budget, and a near-term deadline"
+      ]
+    },
+    "email_kind": {
+      "type": "choice",
+      "instructions": "What kind of email is this?",
+      "criteria": {
+        "quote_request": "The sender asks for a price quote or proposal for specific products or services.",
+        "cold_outreach": "The sender is pitching their own products or services to us.",
+        "support_request": "The sender is an existing customer asking for help with something they bought.",
+        "general_inquiry": "The sender asks general questions with no request for a quote.",
+        "other": "None of the above."
+      }
+    },
+    "needs_personal_reply": {
+      "type": "noul",
+      "instructions": "Does this email need a personal reply from a human, rather than an automated or templated response?",
+      "criteria": {
+        "true": "The sender asks specific questions or requests a call or quote that a person must answer.",
+        "false": "A standard automated reply would be enough."
+      }
+    }
+  }
+}
