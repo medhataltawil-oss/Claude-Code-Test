@@ -14,6 +14,11 @@
 - Don't add attendees unless asked (adding attendees sends invitations).
 - Whenever the user asks for a meeting invite to be sent to anyone, CC the user (`md@img-bcme.com`) on the invite/confirmation email.
 
+## Email hosting (img-ca.com cPanel)
+- Never delete emails, empty a mailbox, or change the automatic email cleanup without written confirmation from opm (`opm@img-ca.com`).
+- The cleanup cron job (deletes Inbox emails read more than 7 days ago, keeps unread and flagged) starts October 12, 2026, only if opm has approved it beforehand.
+- Mailbox alerts (75% full) go to `alerts@img-ca.com`, which forwards to `md@img-ca.com` and `opm@img-ca.com`.
+
 ## Contacts
 - Aneke: `247@img-ca.com`
 - Marie Lopez: `am@img-bcme.com`
