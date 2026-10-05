@@ -17,3 +17,6 @@
 ## Contacts
 - Aneke: `247@img-ca.com`
 - Marie Lopez: `am@img-bcme.com`
+- Lea: `lea@img-ca.com` (spelled **Lea**, never Leah/Léa)
+- Jordan (Operations Manager): `operations@img-ca.com`
+- Spelling: always write **Lea** and **Marie** exactly like this.
