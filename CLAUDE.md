@@ -7,6 +7,10 @@
 - Always CC the user's work email (`md@img-bcme.com`) on every email sent, replied to, or forwarded.
 
 ## Reminders & calendar events
+- The user has **two work calendars**, one per work email:
+  1. `md@img-bcme.com`: Microsoft 365 (Outlook web / connector). This is the one Claude books on. In the desktop Outlook app it shows as a read-only linked calendar named **IMG-BCME**.
+  2. `md@img-ca.com`: a POP account in the desktop Outlook app. Its calendar lives only on the user's PC, so Claude can't read or write it, and nothing Claude books appears there.
+  Plus Google Calendar (`zealous2017@gmail.com`). When the user says "my calendar", ask which one if it matters. Bookings / free-busy only check the img-bcme calendar.
 - Every reminder or calendar event must be added to **both** calendars:
   1. Outlook calendar (Microsoft 365, `md@img-bcme.com`)
   2. Google Calendar (`zealous2017@gmail.com`, primary calendar)
