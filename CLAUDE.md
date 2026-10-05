@@ -10,8 +10,8 @@
 - Every reminder or calendar event must be added to **both** calendars:
   1. Outlook calendar (Microsoft 365, `md@img-bcme.com`)
   2. Google Calendar (`zealous2017@gmail.com`, primary calendar)
-- Use Toronto time (`America/Toronto`) unless the user says otherwise.
-- Work out relative dates ("today", "tomorrow", "first thing in the morning") from the current Toronto local date, not UTC. Check the current Toronto time first, since UTC is often already the next day in the evening.
+- **Always use the user's local time in Toronto (`America/Toronto`)** whenever the user requests or sets a meeting, reminder or event, unless they name another time zone.
+- Work out every date and time ("today", "tomorrow", "first thing in the morning", weekday names, times) from the current Toronto local date and time, never UTC or the server date. Check the current Toronto time first, since UTC is often already the next day in the evening. State the weekday and date in Toronto time in the email and the calendar entry.
 - Don't add attendees unless asked (adding attendees sends invitations).
 - Whenever the user asks for a meeting invite to be sent to anyone, CC the user (`md@img-bcme.com`) on the invite/confirmation email.
 
