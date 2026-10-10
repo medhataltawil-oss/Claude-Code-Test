@@ -22,3 +22,5 @@
 ## Contacts
 - Aneke: `247@img-ca.com`
 - Marie Lopez: `am@img-bcme.com`
+- Aimy: `finance@img-ca.com` and `aimy@intertekgroup.org` (invite both)
+- Jordan: `operations@img-ca.com`
